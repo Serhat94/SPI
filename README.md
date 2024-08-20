@@ -1,7 +1,7 @@
 # SPI
 SPI communication for 320F32069
 
-![image](https://github.com/user-attachments/assets/9a70e8d8-b22a-4659-aa53-dbda9d1cbdfb)
+![image](https://github.com/user-attachments/assets/d7454ecd-1f1b-418b-8117-7435c467b713)
 
 **What is SPI**
 
