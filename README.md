@@ -9,10 +9,10 @@ SPI is generally used to communicate between a master device and one or more sla
 
 **Connection**
 
---> SCLK (Serial Clock): Bu hattın üzerinden saat sinyali gönderilir ve diğer cihazların veri alışverişini senkronize eder.
+--> SCLK (Serial Clock): The clock signal is sent over this line and synchronizes the data exchange of other devices.
 
---> MOSI (Master Out Slave In): Ana cihazdan veri göndermek için kullanılır. Ana cihazın gönderdiği veriler bu hattan slave cihazlara iletilir.
+--> MOSI (Master Out Slave In): It is used to send data from the master device. The data sent by the master device is transmitted to the slave devices via this line.
 
---> MISO (Master In Slave Out): Slave cihazların ana cihaza veri göndermek için kullandığı hattır. Ana cihaz, bu hattı kullanarak veriyi alır.
+--> MISO (Master In Slave Out): This is the line that slave devices use to send data to the master device. The master device receives data using this line.
 
---> SS/CS (Slave Select/Chip Select): Her bir slave cihazın seçilmesini veya devre dışı bırakılmasını sağlamak için kullanılır. Ana cihaz, hangi slave cihazla iletişim kurmak istediğini bu hattı kullanarak belirtir.
+--> SS/CS (Slave Select/Chip Select): It is used to enable or disable each slave device. The master device specifies which slave device it wants to communicate with using this line.
